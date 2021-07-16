@@ -1,0 +1,3 @@
+[submodule "sample-encodings"]
+	path = sample-encodings
+	url = https://github.com/music-encoding/sample-encodings.git

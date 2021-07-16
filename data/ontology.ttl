@@ -1,0 +1,399 @@
+@prefix mei:   <http://www.music-encoding.org/ns/mei#> .
+@prefix fx:    <http://sparql.xyz/facade-x/ns/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xyz:   <http://sparql.xyz/facade-x/data/> .
+
+mei:has-castList  a  owl:ObjectProperty .
+
+mei:language  a  owl:Class .
+
+mei:incipText  a  owl:Class .
+
+mei:notesStmt  a  owl:Class .
+
+mei:targettype  a  owl:DataProperty .
+
+mei:has-application  a  owl:ObjectProperty .
+
+mei:relationList  a  owl:Class .
+
+mei:has-fileDesc  a  owl:ObjectProperty .
+
+mei:has-sourceDesc  a  owl:ObjectProperty .
+
+mei:has-address  a  owl:ObjectProperty .
+
+mei:music  a    owl:Class .
+
+mei:has-itemList  a  owl:ObjectProperty .
+
+mei:castItem  a  owl:Class .
+
+mei:unit  a     owl:DataProperty .
+
+mei:sym  a      owl:DataProperty .
+
+mei:has-editor  a  owl:ObjectProperty .
+
+mei:has-incipText  a  owl:ObjectProperty .
+
+mei:has-geogName  a  owl:ObjectProperty .
+
+mei:persName  a  owl:Class .
+
+mei:has-source  a  owl:ObjectProperty .
+
+mei:langUsage  a  owl:Class .
+
+mei:fontstyle  a  owl:DataProperty .
+
+mei:title  a    owl:Class .
+
+mei:genre  a    owl:Class .
+
+mei:has-meiHead  a  owl:ObjectProperty .
+
+mei:has-history  a  owl:ObjectProperty .
+
+mei:address  a  owl:Class .
+
+mei:has-biblList  a  owl:ObjectProperty .
+
+mei:has-identifier  a  owl:ObjectProperty .
+
+<http://www.w3.org/1999/xlink#show>
+        a       owl:DataProperty .
+
+mei:has-title  a  owl:ObjectProperty .
+
+mei:relation  a  owl:Class .
+
+mei:isodate  a  owl:DataProperty .
+
+mei:meiversion  a  owl:DataProperty .
+
+mei:publisher  a  owl:Class .
+
+mei:has-physDesc  a  owl:ObjectProperty .
+
+mei:perfMedium  a  owl:Class .
+
+<http://www.w3.org/1999/xlink#title>
+        a       owl:DataProperty .
+
+mei:componentGrp  a  owl:Class .
+
+mei:has-corpName  a  owl:ObjectProperty .
+
+mei:has-work  a  owl:ObjectProperty .
+
+mei:has-perfResList  a  owl:ObjectProperty .
+
+mei:has-author  a  owl:ObjectProperty .
+
+mei:expression  a  owl:Class .
+
+mei:has-relatedItem  a  owl:ObjectProperty .
+
+mei:changeDesc  a  owl:Class .
+
+mei:label  a    owl:DataProperty .
+
+mei:ref  a      owl:Class .
+
+mei:has-meter  a  owl:ObjectProperty .
+
+mei:has-relationList  a  owl:ObjectProperty .
+
+mei:revisionDesc  a  owl:Class .
+
+mei:level  a    owl:DataProperty .
+
+mei:has-projectDesc  a  owl:ObjectProperty .
+
+mei:mei  a      owl:Class .
+
+mei:notbefore  a  owl:DataProperty .
+
+mei:has-castItem  a  owl:ObjectProperty .
+
+mei:annot  a    owl:Class .
+
+mei:eventList  a  owl:Class .
+
+mei:seriesStmt  a  owl:Class .
+
+mei:solo  a     owl:DataProperty .
+
+mei:fontweight  a  owl:DataProperty .
+
+mei:relatedItem  a  owl:Class .
+
+mei:has-perfRes  a  owl:ObjectProperty .
+
+mei:has-annot  a  owl:ObjectProperty .
+
+mei:fileDesc  a  owl:Class .
+
+mei:codedval  a  owl:DataProperty .
+
+mei:has-date  a  owl:ObjectProperty .
+
+mei:has-bibl  a  owl:ObjectProperty .
+
+mei:has-perfMedium  a  owl:ObjectProperty .
+
+mei:tempo  a    owl:Class .
+
+mei:projectDesc  a  owl:Class .
+
+mei:has-relation  a  owl:ObjectProperty .
+
+mei:identifier  a  owl:Class .
+
+mei:workDesc  a  owl:Class .
+
+mei:has-expression  a  owl:ObjectProperty .
+
+mei:physLoc  a  owl:Class .
+
+mei:date  a     owl:Class .
+
+mei:bibl  a     owl:Class .
+
+mei:expressionList  a  owl:Class .
+
+mei:has-item  a  owl:ObjectProperty .
+
+mei:has-resp  a  owl:ObjectProperty .
+
+mei:has-termList  a  owl:ObjectProperty .
+
+mei:enddate  a  owl:DataProperty .
+
+mei:has-componentGrp  a  owl:ObjectProperty .
+
+mei:biblList  a  owl:Class .
+
+mei:item  a     owl:Class .
+
+mei:has-expan  a  owl:ObjectProperty .
+
+mei:resp  a     owl:Class .
+
+mei:target  a   owl:DataProperty .
+
+mei:has-ptr  a  owl:ObjectProperty .
+
+mei:has-change  a  owl:ObjectProperty .
+
+mei:has-classCode  a  owl:ObjectProperty .
+
+mei:has-seriesStmt  a  owl:ObjectProperty .
+
+mei:pubPlace  a  owl:Class .
+
+mei:physDesc  a  owl:Class .
+
+mei:authority  a  owl:DataProperty .
+
+mei:has-titleStmt  a  owl:ObjectProperty .
+
+mei:corpName  a  owl:Class .
+
+mei:has-revisionDesc  a  owl:ObjectProperty .
+
+mei:rel  a      owl:DataProperty .
+
+mei:    a       owl:Ontology .
+
+mei:repository  a  owl:Class .
+
+mei:editor  a   owl:Class .
+
+mei:has-recipient  a  owl:ObjectProperty .
+
+mei:source  a   owl:Class .
+
+mei:has-incip  a  owl:ObjectProperty .
+
+mei:application  a  owl:Class .
+
+mei:respStmt  a  owl:Class .
+
+mei:count  a    owl:DataProperty .
+
+mei:has-appInfo  a  owl:ObjectProperty .
+
+mei:has-expressionList
+        a       owl:ObjectProperty .
+
+mei:type  a     owl:DataProperty .
+
+mei:biblScope  a  owl:Class .
+
+mei:has-pubStmt  a  owl:ObjectProperty .
+
+mei:analog  a   owl:DataProperty .
+
+mei:has-titlePage  a  owl:ObjectProperty .
+
+mei:p   a       owl:Class .
+
+mei:creation  a  owl:Class .
+
+mei:has-workDesc  a  owl:ObjectProperty .
+
+mei:has-encodingDesc  a  owl:ObjectProperty .
+
+mei:has-notesStmt  a  owl:ObjectProperty .
+
+mei:appInfo  a  owl:Class .
+
+mei:classcode  a  owl:DataProperty .
+
+mei:event  a    owl:Class .
+
+mei:has-music  a  owl:ObjectProperty .
+
+mei:has-language  a  owl:ObjectProperty .
+
+mei:has-biblScope  a  owl:ObjectProperty .
+
+mei:pubStmt  a  owl:Class .
+
+mei:meter  a    owl:Class .
+
+mei:classification  a  owl:Class .
+
+mei:work  a     owl:Class .
+
+mei:author  a   owl:Class .
+
+mei:has-graphic  a  owl:ObjectProperty .
+
+mei:addrLine  a  owl:Class .
+
+mei:has-genre  a  owl:ObjectProperty .
+
+mei:has-name  a  owl:ObjectProperty .
+
+mei:has-event  a  owl:ObjectProperty .
+
+mei:has-langUsage  a  owl:ObjectProperty .
+
+mei:has-pubPlace  a  owl:ObjectProperty .
+
+mei:meiHead  a  owl:Class .
+
+mei:has-repository  a  owl:ObjectProperty .
+
+mei:history  a  owl:Class .
+
+mei:name  a     owl:Class .
+
+<http://www.w3.org/XML/1998/namespace#lang>
+        a       owl:DataProperty .
+
+mei:graphic  a  owl:Class .
+
+mei:perfResList  a  owl:Class .
+
+mei:termList  a  owl:Class .
+
+mei:has-persName  a  owl:ObjectProperty .
+
+mei:castList  a  owl:Class .
+
+mei:has-physLoc  a  owl:ObjectProperty .
+
+mei:has-p  a    owl:ObjectProperty .
+
+mei:has-term  a  owl:ObjectProperty .
+
+mei:has-respStmt  a  owl:ObjectProperty .
+
+mei:has-head  a  owl:ObjectProperty .
+
+mei:has-role  a  owl:ObjectProperty .
+
+mei:has-publisher  a  owl:ObjectProperty .
+
+mei:term  a     owl:Class .
+
+mei:has-rend  a  owl:ObjectProperty .
+
+mei:itemList  a  owl:Class .
+
+mei:has-creation  a  owl:ObjectProperty .
+
+mei:n   a       owl:DataProperty .
+
+mei:head  a     owl:Class .
+
+mei:role  a     owl:DataProperty , owl:Class .
+
+mei:authURI  a  owl:DataProperty .
+
+mei:has-ref  a  owl:ObjectProperty .
+
+mei:has-classification
+        a       owl:ObjectProperty .
+
+mei:sourceDesc  a  owl:Class .
+
+mei:geogName  a  owl:Class .
+
+mei:has-abbr  a  owl:ObjectProperty .
+
+mei:classCode  a  owl:Class .
+
+mei:rend  a     owl:DataProperty , owl:Class .
+
+mei:expan  a    owl:Class .
+
+<http://www.w3.org/XML/1998/namespace#id>
+        a       owl:DataProperty .
+
+mei:ptr  a      owl:Class .
+
+mei:has-imprint  a  owl:ObjectProperty .
+
+mei:titleStmt  a  owl:Class .
+
+mei:has-desc  a  owl:ObjectProperty .
+
+mei:abbr  a     owl:Class .
+
+mei:startdate  a  owl:DataProperty .
+
+mei:notafter  a  owl:DataProperty .
+
+mei:has-addrLine  a  owl:ObjectProperty .
+
+mei:has-eventList  a  owl:ObjectProperty .
+
+mei:encodingDesc  a  owl:Class .
+
+mei:desc  a     owl:Class .
+
+mei:recipient  a  owl:Class .
+
+mei:perfRes  a  owl:Class .
+
+mei:mimetype  a  owl:DataProperty .
+
+mei:imprint  a  owl:Class .
+
+mei:change  a   owl:Class .
+
+mei:has-changeDesc  a  owl:ObjectProperty .
+
+mei:incip  a    owl:Class .
+
+mei:version  a  owl:DataProperty .
+
+mei:titlePage  a  owl:Class .
+
+mei:has-tempo  a  owl:ObjectProperty .
