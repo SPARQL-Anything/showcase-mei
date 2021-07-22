@@ -5628,6 +5628,13 @@
         rdf:_1  <http://www.music-encoding.org/ns/mei#mei/1:meiHead/4:revisionDesc/88:change/2:changeDesc/1:p> ;
         xml:id  "changeDesc_741f6b88" .
 
+<file:/Users/ed4565/Development/sparql-anything-mei/CNW/cnw0001.xml#>
+        a               fx:root , mei:mei ;
+        rdf:_1          <http://www.music-encoding.org/ns/mei#mei/1:meiHead> ;
+        rdf:_2          <http://www.music-encoding.org/ns/mei#mei/2:music> ;
+        mei:meiversion  "3.0.0" ;
+        xml:id          "mei_idm140317825599520" .
+
 <http://www.music-encoding.org/ns/mei#mei/1:meiHead/3:workDesc/1:work/9:biblList/229:bibl/6:relatedItem>
         a        mei:relatedItem ;
         rdf:_1   <http://www.music-encoding.org/ns/mei#mei/1:meiHead/3:workDesc/1:work/9:biblList/229:bibl/6:relatedItem/1:bibl> ;
@@ -20594,13 +20601,6 @@
         a       mei:identifier ;
         rdf:_1  "CNA IAb" ;
         xml:id  "identifier_N226D6" .
-
-<file:/Users/ed4565/Development/mei-linked-data/CNW/cnw0001.xml#>
-        a               fx:root , mei:mei ;
-        rdf:_1          <http://www.music-encoding.org/ns/mei#mei/1:meiHead> ;
-        rdf:_2          <http://www.music-encoding.org/ns/mei#mei/2:music> ;
-        mei:meiversion  "3.0.0" ;
-        xml:id          "mei_idm140317825599520" .
 
 <http://www.music-encoding.org/ns/mei#mei/1:meiHead/3:workDesc/1:work/9:biblList/17:bibl/6:relatedItem/1:bibl/1:title>
         a       mei:title ;

@@ -7,7 +7,7 @@ PREFIX xml: <http://www.w3.org/XML/1998/namespace#>
 CONSTRUCT {
    ?S ?P ?O
 } WHERE {
- SERVICE <x-sparql-anything:media-type=application/xml,blank-nodes=false,namespace=http://www.music-encoding.org/ns/mei#,location=CNW/cnw0001.xml> {
+ SERVICE <x-sparql-anything:media-type=application/xml,blank-nodes=false,namespace=http://www.music-encoding.org/ns/mei#,location=./sample-encodings/MEI_4.0/Music/Complete_examples/Parker-Gillespie_ShawNuff.mei> {
    ?S ?P ?O
  }
 }
