@@ -1,7 +1,7 @@
 # Music Encoding Initiative (MEI)
 This projects includes some experiments in querying MEI/XML with SPARQL Anything.
 
-The queries reuses MEI files from (The Catalogue of Carl Nielsen's Works](https://music-encoding.org/projects/cnw.html) and from the MEI samples-encoding repository.
+The queries reuses MEI files from [The Catalogue of Carl Nielsen's Works](https://music-encoding.org/projects/cnw.html) and from the MEI samples-encoding repository.
 
 This project includes examples using open data from the Tate Gallery collection.
 
